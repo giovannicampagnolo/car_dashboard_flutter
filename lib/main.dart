@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'The Flutter Way',
+      title: 'car dashboard',
       theme: ThemeData.dark(),
       home: const HmiDashboard(),
     );
