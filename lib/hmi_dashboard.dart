@@ -14,6 +14,7 @@ class HmiDashboard extends StatelessWidget {
         body: SizedBox(
       child: (size.width > 1184 && size.height > 456)
           ? Container(
+        margin: const EdgeInsets.all(16.0),
         constraints: const BoxConstraints(
           maxWidth:1480,
           minWidth: 1184,
@@ -53,7 +54,7 @@ class HmiShapePrinter extends CustomPainter {
 
     Paint paint = Paint()
     ..style = PaintingStyle.stroke
-    ..strokeWidth = 8
+    ..strokeWidth = 6
     ..color = primaryColor;
     canvas.drawPath(path, paint);
     
